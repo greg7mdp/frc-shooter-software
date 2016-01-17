@@ -19,7 +19,7 @@ I code in C++ every day (and like it), so I plan on using C++ for this developme
 * Raspberry PI 5MP Camera Board Module ($24.99 - [amazon](http://www.amazon.com/gp/product/B00E1GGE40))
 * Mini Pan-Tilt Kit - Assembled with Micro Servos  ($24.99 - [amazon](http://www.amazon.com/gp/product/B00PY3LQ2Y))
 
-### First attempt with the Raspi
+### First attempt with the PI
 
 When the order arrived (love Amazon's 2 day shipping), I quickly connected everything together. The USB ports are very tight, so make sure you align the connectors well and gently wiggle them, and they will slide right in. The camera connector is tricky, you need to pull up a small white plastic tab on the top, slide in the ribbon, and push the plastic tab back down. Connected a spare monitor via the HDMI cable, et voila! 
 
