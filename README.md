@@ -25,7 +25,7 @@ When the order arrived (love Amazon's 2 day shipping), I quickly connected every
 
 After inserting the micro sd memory card and connecting the micto-usb power supply, the system booted right up into [NOOBS](https://www.raspberrypi.org/help/noobs-setup/), an utility program which allows to select and install a real operating system. 
 
-**Note:** If you don't have a sd card with [NOOBS](https://www.raspberrypi.org/help/noobs-setup/) preinstalled, you can download it from [there](https://www.raspberrypi.org/downloads/noobs/), and just copy the contents of this unzipped archive to a freshly formatted (FAT) sd card.
+**Note:** If you don't have a sd card with [NOOBS](https://www.raspberrypi.org/help/noobs-setup/) preinstalled, you can download it from [here](https://www.raspberrypi.org/downloads/noobs/), and just copy the contents of this unzipped archive to a freshly formatted (FAT) sd card.
 
 The PI booted into NOOBS in a couple seconds, and from there it was super easy to install [raspbian](https://www.raspbian.org/), the Ubuntu based lunix operating system which is optimized for the PI. Raspbian booted straight into an X11 desktop, which has a command window and a web browser. I found I had ro run a few commands immediately ([ymmv](http://www.urbandictionary.com/define.php?term=ymmv))
 
