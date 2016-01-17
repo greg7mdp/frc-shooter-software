@@ -46,5 +46,5 @@ The PI booted into NOOBS in a couple seconds, and from there it was super easy t
 
 Well, I coundn't get the camera to work. So I played with it, connected and disconnected it multiple times, used [raspi-config](https://www.raspberrypi.org/documentation/configuration/raspi-config.md), rebooted multiple times... still no luck. During the "apt-get upgrade" which took some time, I was looking at the PI and turning it in my hands when I involunarily popped the sd card out. Big mistake: the card was in the middle of being written to and apparently this destroyed the card. I couldn't boot on it anymore and it isnt recognized on my other PCs anymore.
 
-Unfortunately, I have lots of rehular size SD cards around, but no other micro sd, and the spare one I had ordered from Amazon will only arrive tomorrow (sunday). So this terminates my PI experiments for the day and gives me the opportunity to write this account you are reading right now.
+Unfortunately, I have lots of regular size SD cards around, but no other micro sd, and the spare one I have ordered from Amazon will only arrive tomorrow (sunday). So this ends my PI experiments for the day and gives me the opportunity to write this account you are reading right now.
 
