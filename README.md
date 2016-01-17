@@ -23,4 +23,6 @@ I code in C++ every day (and like it), so I plan on using C++ for this developme
 
 When the order arrived (love Amazon's 2 day shipping), I quickly connected everything together. The USB ports are very tight, so make sure you align the connectors well and gently wiggle them, and they will slide right in. The camera connector is tricky, you need to pull up a small white plastic tab on the top, slide in the ribbon, and push the plastic tab back down. Connected a spare monitor via the HDMI cable, et voila! 
 
-After inserting the micro sd memory card and connecting the micto-usb power supply, the system booted right up into [NOOBS](https://www.raspberrypi.org/help/noobs-setup/), an utility program which allows to select and install a real operating system. If you don't have a sd card with NOOBS preinstalled, you can download it from [there](https://www.raspberrypi.org/downloads/noobs/), and just copy the contents of this unzipped archive to a freshly formatted (FAT) sd card.
+After inserting the micro sd memory card and connecting the micto-usb power supply, the system booted right up into [NOOBS](https://www.raspberrypi.org/help/noobs-setup/), an utility program which allows to select and install a real operating system. 
+
+**Note:** If you don't have a sd card with [NOOBS](https://www.raspberrypi.org/help/noobs-setup/) preinstalled, you can download it from [there](https://www.raspberrypi.org/downloads/noobs/), and just copy the contents of this unzipped archive to a freshly formatted (FAT) sd card.
