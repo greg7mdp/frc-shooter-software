@@ -32,9 +32,9 @@ The PI booted into NOOBS in a couple seconds, and from there it was super easy t
 ```
 - sudo dpkg-reconfigure tzdata  # update the timezone for the system clock
 - sudo apt-get update           # update the system package list
-- sudo apt-get upgrade          # upgrade all installed packages
+- sudo apt-get upgrade          # if you feel like it - upgrade all installed packages
 - sudo vi /boot/config.txt      # set disable_overscan=1 and comment out other overscan lines
-- sudo apt-get emacs            # what can I say, I like emacs
+- sudo apt-get emacs            # what can I say, I like emacs, but vi and nano are OK too
 - transfer startup files from my PC (.emacs, .el files, .Xdefaults, etc...) using Filezilla downloaded on the PC
   use: sftp://ip_address, username=raspberry, password=pi
 - sudo raspi-config             # enable camera
