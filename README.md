@@ -3,7 +3,7 @@
 
 This repository describes the shooter software for the robotics FRC Stronghold 2016 competition, running on a Raspberry Pi 2 model B.
 
-One of the goals of this robotics came is to be able to pick up large foam balls from the ground, and to shoot them through a hole placed on a wall approx. 8 feet high. The software described here needs to be able to control the robot to move in position, and the shooter to automatically shoot the ball through the hole when in range. 
+One of the goals of this robotics game is to be able to pick up large foam balls from the ground, and to shoot them through a hole placed on a wall approx. 8 feet high. The software described here needs to be able to control the robot to move it in position, and the shooter to automatically shoot the ball through the hole when in range. 
 
 Here is the full [game manual](https://firstfrc.blob.core.windows.net/frc2016manuals/GameManual/FRC-2016-game-manual.pdf).
 
