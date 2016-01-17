@@ -10,8 +10,8 @@ Here is the full [game manual](https://firstfrc.blob.core.windows.net/frc2016man
 I code in C++ every day (and like it), so I plan on using C++ for this development. [OpenCV](http://opencv.org/) seems to be the standard for processing the camera output, so that's what I'll use. This is my first try at robotics, so I thought I would take baby steps and proceed as follows:
 
 1. setup raspberry pi with camera attached to the swing/tilt servo, and use OpenCV to do face detection and have the camera track the detected face.
-2. mount raspberry pi (from now on called *PI*) and camera to the robot, with a flashlight attached to the servo in the same axis as the camera, and see if we can have the camera trach the target when the robot is driven around.
-3. finally connect the raspi to the [roboRIO](https://decibel.ni.com/content/docs/DOC-30419) and control the shooter and vehicle to shoot the boulders.
+2. mount the Raspberry PI (from now on called *The PI*) and camera to the robot, with a flashlight attached to the servo in the same axis as the camera, and see if we can have the camera trach the target when the robot is driven around.
+3. finally connect the PI to the [roboRIO](https://decibel.ni.com/content/docs/DOC-30419) and control the shooter and vehicle to shoot the boulders.
 
 ### Initial hardware order from Amazon
 
