@@ -29,6 +29,6 @@ After inserting the micro sd memory card and connecting the micto-usb power supp
 
 The PI booted into NOOBS in a couple seconds, and from there it was super easy to install [raspbian](https://www.raspbian.org/), the Ubuntu based lunix operating system which is optimized for the PI. Raspbian booted straight into an X11 desktop, which has a command window and a web browser. I found I had ro run a few commands immediately:
 
-- sudo dpkg-reconfigure tzdata  > update the timezone for the system clock
+- sudo dpkg-reconfigure tzdata  # update the timezone for the system clock
 - 
 
