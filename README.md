@@ -10,7 +10,7 @@ Here is the full [game manual](https://firstfrc.blob.core.windows.net/frc2016man
 I code in C++ every day (and like it), so I plan on using C++ for this development. [OpenCV](http://opencv.org/) seems to be the standard for processing the camera output, so that's what I'll use. This is my first try at robotics, so I thought I would take baby steps and proceed as follows:
 
 1. setup raspberry pi with camera attached to the swing/tilt servo, and use OpenCV to do face detection and have the camera track the detected face.
-2. mount raspberry pi (from now on called *raspi*) and camera to the robot, with a flashlight attached to the servo in the same axis as the camera, and see if we can have the camera trach the target when the robot is driven around.
+2. mount raspberry pi (from now on called *PI*) and camera to the robot, with a flashlight attached to the servo in the same axis as the camera, and see if we can have the camera trach the target when the robot is driven around.
 3. finally connect the raspi to the [roboRIO](https://decibel.ni.com/content/docs/DOC-30419) and control the shooter and vehicle to shoot the boulders.
 
 ### Initial hardware order from Amazon
@@ -26,3 +26,9 @@ When the order arrived (love Amazon's 2 day shipping), I quickly connected every
 After inserting the micro sd memory card and connecting the micto-usb power supply, the system booted right up into [NOOBS](https://www.raspberrypi.org/help/noobs-setup/), an utility program which allows to select and install a real operating system. 
 
 **Note:** If you don't have a sd card with [NOOBS](https://www.raspberrypi.org/help/noobs-setup/) preinstalled, you can download it from [there](https://www.raspberrypi.org/downloads/noobs/), and just copy the contents of this unzipped archive to a freshly formatted (FAT) sd card.
+
+The PI booted into NOOBS in a couple seconds, and from there it was super easy to install [raspbian](https://www.raspbian.org/), the Ubuntu based lunix operating system which is optimized for the PI. Raspbian booted straight into an X11 desktop, which has a command window and a web browser. I found I had ro run a few commands immediately:
+
+- sudo dpkg-reconfigure tzdata  > update the timezone for the system clock
+- 
+
