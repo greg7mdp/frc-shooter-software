@@ -1,7 +1,7 @@
 # frc-shooter-software
 
 
-This repository describes the shooter software for the robotics FRC Stringhold 2016 competition, running on a Raspberry Pi 2 model B.
+This repository describes the shooter software for the robotics FRC Stronghold 2016 competition, running on a Raspberry Pi 2 model B.
 
 One of the goals of this robotics came is to be able to pick up large foam balls from the ground, and to shoot them through a hole placed on a wall approx. 8 feet high. The software described here needs to be able to control the robot to move in position, and the shooter to automatically shoot the ball through the hole when in range. 
 
@@ -13,8 +13,14 @@ I code in C++ every day (and like it), so I plan on using C++ for this developme
 2. mount raspberry pi (from now on called *raspi*) and camera to the robot, with a flashlight attached to the servo in the same axis as the camera, and see if we can have the camera trach the target when the robot is driven around.
 3. finally connect the raspi to the [roboRIO](https://decibel.ni.com/content/docs/DOC-30419) and control the shooter and vehicle to shoot the boulders.
 
-### Initial hardware order from Amazon:
+### Initial hardware order from Amazon
 
 * CanaKit Raspberry Pi 2 Ultimate Starter Kit with WiFi ($84.99 - [amazon](http://www.amazon.com/gp/product/B00G1PNG54))
 * Raspberry PI 5MP Camera Board Module ($24.99 - [amazon](http://www.amazon.com/gp/product/B00E1GGE40))
 * Mini Pan-Tilt Kit - Assembled with Micro Servos  ($24.99 - [amazon](http://www.amazon.com/gp/product/B00PY3LQ2Y))
+
+### First attempt with the Raspi
+
+When the order arrived (love Amazon's 2 day shipping), I quickly connected everything together. The USB ports are very tight, so make sure you align the connectors well and gently wiggle them, and they will slide right in. The camera connector is tricky, you need to pull up a small white plastic tab on the top, slide in the ribbon, and push the plastic tab back down. Connected a spare monitor via the HDMI cable, et voila! 
+
+After inserting the micro sd memory card and connecting the micto-usb power supply, the system booted right up into [NOOBS](https://www.raspberrypi.org/help/noobs-setup/), an utility program which allows to select and install a real operating system. If you don't have a sd card with NOOBS preinstalled, you can download it from [there](https://www.raspberrypi.org/downloads/noobs/), and just copy the contents of this unzipped archive to a freshly formatted (FAT) sd card.
