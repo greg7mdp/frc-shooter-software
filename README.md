@@ -27,8 +27,18 @@ After inserting the micro sd memory card and connecting the micto-usb power supp
 
 **Note:** If you don't have a sd card with [NOOBS](https://www.raspberrypi.org/help/noobs-setup/) preinstalled, you can download it from [there](https://www.raspberrypi.org/downloads/noobs/), and just copy the contents of this unzipped archive to a freshly formatted (FAT) sd card.
 
-The PI booted into NOOBS in a couple seconds, and from there it was super easy to install [raspbian](https://www.raspbian.org/), the Ubuntu based lunix operating system which is optimized for the PI. Raspbian booted straight into an X11 desktop, which has a command window and a web browser. I found I had ro run a few commands immediately:
+The PI booted into NOOBS in a couple seconds, and from there it was super easy to install [raspbian](https://www.raspbian.org/), the Ubuntu based lunix operating system which is optimized for the PI. Raspbian booted straight into an X11 desktop, which has a command window and a web browser. I found I had ro run a few commands immediately ([ymmv](http://www.urbandictionary.com/define.php?term=ymmv))
 
+```
 - sudo dpkg-reconfigure tzdata  # update the timezone for the system clock
-- 
+- sudo apt-get update           # update the system package list
+- sudo apt-get upgrade          # upgrade all installed packages
+- sudo vi /boot/config.txt      # set disable_overscan=1 and comment out other overscan lines
+- sudo apt-get emacs            # what can I say, I like emacs
+- transfer startup files from my PC (.emacs, .el files, .Xdefaults, etc...) using Filezilla downloaded on the PC
+  use: sftp://ip_address, username=raspberry, password=pi
+- sudo raspi-config             # enable camera
+- sudo reboot                   # 
+- raspistill -o img.jpg         # test camera 
+```
 
